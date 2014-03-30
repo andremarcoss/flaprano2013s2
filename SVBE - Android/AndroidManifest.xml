@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.svbe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+        <uses-sdk android:minSdkVersion="9"
+              android:targetSdkVersion="16"
+              android:maxSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.svbe.android.gui.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.svbe.android.gui.SessaoAprovacao"
+            android:label="@string/title_activity_sessao_aprovacao" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.svbe.android.gui.SessaoConfirmacao"
+            android:label="@string/title_activity_sessao_confirmacao"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.svbe.android.gui.SessaoDeliberacao"
+            android:label="@string/title_activity_sessao_deliberacao"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.svbe.android.gui.SessaoAlfanumerico"
+            android:label="@string/title_activity_sessao_escolha"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.svbe.android.gui.ListaSessoes"
+            android:label="@string/title_activity_lista_sessoes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.svbe.android.gui.CadastroUsuario"
+            android:label="@string/title_activity_cadastro_usuario"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

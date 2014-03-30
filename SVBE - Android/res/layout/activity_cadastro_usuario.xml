@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CadastroUsuario" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/edtUsuarioCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/lblUsuarioCadastro"
+            android:ems="10"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/lblLoginCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtUsuarioCadastro"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="Login:"
+            android:textSize="8pt" />
+
+        <EditText
+            android:id="@+id/edtLoginCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtUsuarioCadastro"
+            android:layout_alignRight="@+id/edtUsuarioCadastro"
+            android:layout_below="@+id/lblLoginCadastro"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/lblSenhaCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtLoginCadastro"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Senha:"
+            android:textSize="9pt" />
+
+        <EditText
+            android:id="@+id/edtSenhaCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtLoginCadastro"
+            android:layout_alignRight="@+id/edtLoginCadastro"
+            android:layout_below="@+id/lblSenhaCadastro"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtSenhaCadastro"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Cadastrar" />
+
+        <TextView
+            android:id="@+id/lblUsuarioCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:text="Nome do Usuário:"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="Cadastro de Usuário"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+</ScrollView>

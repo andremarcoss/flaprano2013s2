@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SVBE</string>
+    <string name="title_activity_sessao_deliberacao">SVBE - Sessão</string>
+    <string name="title_activity_sessao_aprovacao">SVBE - Sessão</string>
+    <string name="title_activity_sessao_confirmacao">SVBE - Sessão</string>
+    <string name="title_activity_sessao_escolha">SVBE - Sessão</string>
+    <string name="title_activity_cadastro_celular">SVBE - Cadastro de Aparelho</string>
+    <string name="title_activity_lista_sessoes">SVBE - Lista de Sessões</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_cadastro_usuario">Cadastro de Usuário</string>
+    <string name="title_activity_actib">MainActivity</string>
+
+</resources>

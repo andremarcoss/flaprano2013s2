@@ -1,0 +1,62 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.navbar-inverse .navbar-brand{
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.form-cadastro .form-cadastro-head {
+  margin-bottom: 10px;
+}
+
+.form-horizontal .form-group {
+  margin-left: 15px;
+  max-width: 690px;
+}
+
+textarea {
+  min-height: 300px;
+  max-height: 300px;
+  max-width: 545px;
+}
+
+.col-sm-1 #center,
+.col-sm-3 #center {
+  margin-top: 6px;
+}
+
+.col-sm-1 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.col-sm-3 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 0px;
+}
+
+.col-sm-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 0px;
+}
+
+.col-sm-7 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 0px;
+  margin-right: 15px;
+}
+
+input[type="date"]{
+	width: auto;
+}
